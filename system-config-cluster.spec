@@ -7,7 +7,7 @@ Release: %mkrel 1
 URL: http://www.redhat.com/ 
 Source0: %{name}-%{version}.tar.gz
 License: GPL
-Group: System/Configuration
+Group: System/Configuration/Other
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 Requires: python-gnome, pygtk2.0, pygtk2.0-libglade, gnome-python-canvas, gnome-python-gnomevfs
