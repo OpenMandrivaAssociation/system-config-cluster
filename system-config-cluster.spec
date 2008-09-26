@@ -21,6 +21,7 @@ system-config-cluster is a utility which allows you to manage cluster configurat
 %prep
 %setup -q
 perl -pi -e 's,(/usr/bin/python)\S*,$1,g' src/ModelBuilder.py src/system-config-cluster.py
+perl -pi -e 's/auth(\s*)required(\s*)pam_stack.so service=/auth${1}include${2}/g' system-config-cluster.pam
 
 %build
 %configure
