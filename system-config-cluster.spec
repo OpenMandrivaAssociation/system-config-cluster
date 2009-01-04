@@ -2,9 +2,9 @@
 # -*- RPM-SPEC -*-
 Summary: Graphical utility which allows you to manage cluster configuration
 Name: system-config-cluster
-Version: 1.0.52
+Version: 1.0.53
 Release: %mkrel 1
-URL: http://www.redhat.com/ 
+URL: http://www.redhat.com/
 Source0: %{name}-%{version}.tar.gz
 License: GPL
 Group: System/Configuration/Other
