@@ -52,3 +52,22 @@ rm -rf %{buildroot}
 %config %{_sysconfdir}/pam.d/system-config-cluster
 %config %{_sysconfdir}/security/console.apps/system-config-cluster
 
+
+
+%changelog
+* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.0.53-2mdv2010.0
++ Revision: 445344
+- rebuild
+
+* Sun Jan 04 2009 Jérôme Soyer <saispo@mandriva.org> 1.0.53-1mdv2009.1
++ Revision: 324245
+- New upstream release
+
+* Fri Sep 26 2008 Buchan Milne <bgmilne@mandriva.org> 1.0.52-1mdv2009.0
++ Revision: 288605
+- Fix PAM files
+- import system-config-cluster
+
+
+* Tue Sep 23 2008 Buchan Milne <bgmilne@mandriva.org> 1.0.52-1mdv
+  - Initial Mandriva package based on 1.0.52-1.1
