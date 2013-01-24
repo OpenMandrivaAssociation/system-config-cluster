@@ -3,14 +3,13 @@
 Summary: Graphical utility which allows you to manage cluster configuration
 Name: system-config-cluster
 Version: 1.0.53
-Release: %mkrel 2
+Release: 3
 URL: http://www.redhat.com/
 Source0: %{name}-%{version}.tar.gz
 License: GPL
 Group: System/Configuration/Other
 BuildArch: noarch
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
-Requires: python-gnome, pygtk2.0, pygtk2.0-libglade, gnome-python-canvas, gnome-python-gnomevfs
+Requires: gnome-python, pygtk2.0, pygtk2.0-libglade, gnome-python-canvas, gnome-python-gnomevfs
 Requires: rhpl >= 0.148.2
 Requires: python >= 2.3
 BuildRequires: perl(XML::Parser) gettext
