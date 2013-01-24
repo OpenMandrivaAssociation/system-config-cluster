@@ -15,7 +15,8 @@ Requires: python >= 2.3
 BuildRequires: perl(XML::Parser) gettext
 
 %description
-system-config-cluster is a utility which allows you to manage cluster configuration in a graphical setting.
+system-config-cluster is a utility which allows you to manage
+cluster configuration in a graphical setting.
 
 %prep
 %setup -q
