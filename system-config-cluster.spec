@@ -28,14 +28,13 @@ perl -pi -e 's/auth(\s*)required(\s*)pam_stack.so service=/auth${1}include${2}/g
 make
 
 %install
-rm -rf %{buildroot}
 %makeinstall
+find %{buildroot} -name "*py" -exec chmod a+r {} \;
 
 #Uncomment this when translations are done
 #%find_lang %name
 
 %clean
-rm -rf %{buildroot}
 
 #Replace the files line with the one commented out when translations are done
 #%files -f %{name}.lang
