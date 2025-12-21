@@ -12,6 +12,11 @@ BuildArch: noarch
 Requires: gnome-python, pygtk2.0, pygtk2.0-libglade, gnome-python-canvas, gnome-python-gnomevfs
 Requires: rhpl >= 0.148.2
 Requires: python >= 2.3
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: perl(XML::Parser) gettext
 
 %description
